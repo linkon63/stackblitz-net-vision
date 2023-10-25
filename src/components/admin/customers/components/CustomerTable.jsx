@@ -3,12 +3,13 @@ import React from "react";
 export default function CustomerTable() {
   return (
     <div>
-      <h2>Data table will show here</h2>
 
-      <div className="container max-w-3xl px-4 mx-auto sm:px-8">
+      <div className="max-w-3xl px-4 mx-auto sm:px-8">
         <div className="py-8">
           <div className="px-4 py-4 -mx-4 overflow-x-auto sm:-mx-8 sm:px-8">
-            <div className="inline-block min-w-full overflow-hidden rounded-lg shadow">
+            <div className="bg-white inline-block min-w-full overflow-hidden rounded-lg shadow p-2">
+              <h2>Data table will show here</h2>
+              <button className="">New Customer</button>
               <table className="min-w-full leading-normal">
                 <thead>
                   <tr>

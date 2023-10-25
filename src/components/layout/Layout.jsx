@@ -155,7 +155,7 @@ export default function Layout() {
             </ul>
           </div>
         </div>
-        <div className="h-full flex items-end justify-center">
+        {/* <div className="h-full flex items-end justify-center">
           <div className="p-2 text-center">
             <img
               src={netVisionLogo || ""}
@@ -163,7 +163,7 @@ export default function Layout() {
               className="w-12/12 h-12 rounded-lg "
             />
           </div>
-        </div>
+        </div> */}
       </div>
       <div className="" style={{ width: layoutStyle.width || "80%" }}>
         {layoutStyle.hide && (
@@ -186,7 +186,7 @@ export default function Layout() {
         )}
         <div
           id="detail"
-          className="w-full h-full flex justify-center bg-gray-100"
+          className="w-full h-full flex justify-center"
         >
           <div className="w-11/12">
             <Outlet />

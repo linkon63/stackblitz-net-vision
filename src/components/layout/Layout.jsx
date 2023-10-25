@@ -9,7 +9,7 @@ export default function Layout() {
   return (
     <div className="flex" style={{ height: "100vh", width: "100%" }}>
       <div
-        className="flex flex-col h-full p-3 w-60 dark:bg-gray-900 dark:text-gray-100"
+        className="flex flex-col h-full p-3 w-60 dark:bg-gray-100 dark:text-dark-900"
         style={{
           width: "20%",
           display: layoutStyle.hide && "none",
@@ -27,7 +27,7 @@ export default function Layout() {
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 512 512"
-                className="w-5 h-5 fill-current dark:text-gray-100"
+                className="w-5 h-5 fill-current dark:text-gray-900"
               >
                 <rect width="352" height="32" x="80" y="96"></rect>
                 <rect width="352" height="32" x="80" y="240"></rect>

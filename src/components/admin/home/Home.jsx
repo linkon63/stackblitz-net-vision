@@ -2,6 +2,9 @@ import { FaShoppingBasket, FaSignal } from "react-icons/fa";
 export default function Home() {
   return (
     <div className="h-11/12">
+      <div className="border w-100 bg-gray-100 p-2 rounded">
+        <h2>Header section</h2>
+      </div>
       <div class="bg-blue-lightest mt-10 grid grid-cols-3 grid-gap w-full">
         <div class="bg-sky-500 w-5/6 h-48 rounded shadow-md flex card text-yellow-50">
           <div class="w-full flex flex-col">
